@@ -11,6 +11,8 @@ We started out by learning how to interpret the data through the data dictionary
 ##### Step 1: Exploring Scope of Data and Cartesian Products
 To start feeling out relationships between the variables, we set up Cartesian cross products: we ran a double nested for-loop and paired up every variable with every other variable, although most of our focus was on the pairs linking x regressors to ROP. Using these coordinates, we built scatter plots to look for trends and correlations between every parameter and the ROP.
 
+![Preliminary exploration](figures/Picture1.jpg)
+
 We had a hunch that wellbore ID might be a significant categorical factor important to other x regressors and the ROP, and investigated further. We resolved to ask whether the test data would exclude the wellbore ID’s we had seen so far entirely.
 
 ##### Step 2: Segmenting Data
